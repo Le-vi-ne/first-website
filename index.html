@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="./style.css">
 <body>
 <section>
 <nav>
-<img src="./HTML Practise Assets/discord.png">
+<img src="./HTML Practise Assets/FES.svg" class="logo" alt="Logo of Frontend Simplified">
 <ul>
 <li><a href="#about">About</a></li>
 <li><a href="#discord">discord</a></li>
@@ -16,15 +17,78 @@
 </ul>
 </nav>    
 <header>
-<div>
-<h1>Welcome to My Website</h1>
-<p>This is a paragraph of text that welcomes visitors to the website. You can add more information here about what the website is about or what visitors can expect to find.</p>    
-<button>Click Me!</button>
+<div class="row">
+<div class="header__description">
+<h1>Best place to learn frontend development</h1>
+<p class="subheader">This is a paragraph of text that welcomes visitors to the website. You can add more information here about what the website is about or what visitors can expect to find.</p>    
+<button class="home__discrpt__button">Click Me!</button>
+</div>
 </div>
 <figure>
-<img src="./HTML Practise Assets/laptop.png" alt="A laptop displaying code on the screen">
+<img src="./HTML Practise Assets/laptop.png" >
 </figure>
 </header>
 </section>
+<main>
+<section id="about">
+    <h2>
+    About coding!!
+    </h2> 
+    <div class="row">
+    <div class="section__description"></div>
+<div class="section__description--wrapper">
+    <div>
+<p class="section__description--para">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum illum eius ut excepturi ex sed tenetur repellat similique et consequuntur sunt cumque quisquam dignissimos voluptas, deserunt nostrum accusantium modi a.
+</p>
+<p class="section__description--para">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum illum eius ut excepturi ex sed tenetur repellat similique et consequuntur sunt cumque quisquam dignissimos voluptas, deserunt nostrum accusantium modi a.
+</p>
+</div>
+<figure class="about__img--wrapper">
+<img src="./HTML Practise Assets/about.jpg">
+</figure>
+</div>
+</div>
+</section>
+<section id="discord">
+    <h2>
+    Discord
+    </h2>
+    <div class="row">
+    <div class="section__description">
+    <figure class="about__img--wrapper">
+    <img src="./HTML Practise Assets/discord.png" alt="Discord Logo">
+    </figure>
+<div class="section__description--wrapper">
+<p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima libero cumque maiores est, eius eos quisquam? Quas, odio. Ipsa non animi esse hic odit quia, voluptas id quidem fugit sapiente.
+</p>
+<p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima libero cumque maiores est, eius eos quisquam? Quas, odio. Ipsa non animi esse hic odit quia, voluptas id quidem fugit sapiente.
+ </p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact me!!</h2>
+<form action=""
+<label for="email">Name:</label>
+<input type="text" placeholder="life123@example.com"
+<span>Messege</span>
+<textarea type="text" placeholder="Enter your message here..."></textarea>
+<botton>Contact Us!</botton>
+</form>
+</section>
+</main>
+<footer>
+<img class = "footer__logo" src="./HTML Practise Assets/FES.svg" class="logo">
+<div class="footer__links">
+<a claas= "footer__links=" href="#about">Back to top</a>
+<a claas= "footer__links=" href="#discord">Discord</a>
+<a claas= "footer__links=" href="#contact">Contact</a>
+<a claas= "footer__links=" href="">course</a>
+</div>
+<p>copyright Frontend simplified</p>
+</footer>
 </body>
 </html>
